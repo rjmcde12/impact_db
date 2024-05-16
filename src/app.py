@@ -10,8 +10,8 @@ from datetime import datetime
 dbc_css = "https://cdn.jsdelivr.net/gh/AnnMarieW/dash-bootstrap-templates/dbc.min.css"
 
 df = pd.read_csv('ia_50_full_list.csv', index_col=None)
-df_options = pd.read_csv('all_dropdown_options.csv', index_col=None)
-df_options.set_index('column', inplace=True)
+#df_options = pd.read_csv('all_dropdown_options.csv', index_col=None)
+#df_options.set_index('column', inplace=True)
 df_links = pd.read_csv('ia_50_fund_links.csv', index_col=None)
 
 default_table_style = {
